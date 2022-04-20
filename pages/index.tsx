@@ -11,8 +11,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col h-full w-full">
-        <header className="bg-BlackCoffee p-7" >
+      <main className="h-screen w-screen">
+        <header className="bg-BlackCoffee p-7 h-28" >
           <div className="">
             <div className="bg-ColumbiaBlue flex flex-row space-x-10">
               <div>James Peters</div>
@@ -27,18 +27,18 @@ const Home: NextPage = () => {
             </div>
           </div>
         </header>
-        <div className="bg-LiverChestnut flex flex-row px-4 py-6">
+        <div className="bg-LiverChestnut h-full flex flex-row px-4 py-6 space-x-12">
           <div className="bg-ColumbiaBlue">
             { /* About Stuff */}
             hello
           </div>
           <div>
             {/* Pictures */}
-            <div className="bg-Rufous">Hello</div>
-            <div className="bg-PhthaloGreen">Hello</div>
+            <div className="bg-Rufous">Hello Cameron</div>
+            <div className="bg-PhthaloGreen text-white">Hello Brett</div>
           </div>
         </div>
-        <footer className="bg-PhthaloGreen">hello</footer>
+        <footer className="bg-PhthaloGreen h-16">hello</footer>
       </main>
     </div>
   )
